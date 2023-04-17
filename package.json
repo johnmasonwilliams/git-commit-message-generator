@@ -1,0 +1,20 @@
+{
+  "name": "git-commit-message-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mason Williams",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
