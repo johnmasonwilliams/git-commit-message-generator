@@ -9,12 +9,14 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node-dev index.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Mason Williams",
   "license": "ISC",
   "dependencies": {
+    "@types/watch": "^1.0.3",
     "openai": "^3.2.1"
   }
 }
