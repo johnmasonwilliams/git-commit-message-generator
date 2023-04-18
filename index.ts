@@ -1,8 +1,9 @@
 import { Configuration, OpenAIApi } from "openai";
 import { exec } from "node:child_process";
+require('dotenv').config()
 
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY || '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',
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
